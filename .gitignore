@@ -1,0 +1,45 @@
+# secrets
+.env
+.env.*
+!.env.example
+id_rsa*
+*.pem
+*.key
+*.p12
+*.pfx
+known_hosts
+# environments, caches, binaries
+venv/
+.venv/
+ninavenv/
+__pycache__/
+*.pyc
+.DS_Store
+*.exe
+*.zip
+*.lnk
+# data and logs that may contain customer info
+bucket/
+notices/
+logs/
+obp_tracking
+*.txt
+!reqs.txt
+!requirements.txt
+!reqirements.txt
+*.xls
+*.xlsx
+*.csv
+*.pdf
+*.doc
+*.docx
+*.tif
+*.tiff
+*.png
+*.jpg
+*.db
+*.sqlite
+*.log
+# piiscan: findings DB (+ SQLite -wal/-shm side files), reports, and model weights
+data/
+models/
